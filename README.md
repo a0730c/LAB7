@@ -44,3 +44,11 @@ int main() {
 std::cout << "Hello world" << std::endl; 
 }
 ```
+Сделаю билд докера:
+```
+sudo docker build -t hello_world .
+```
+Запущу для проверки:
+```
+docker run hello_world
+```
